@@ -1,17 +1,14 @@
 = Script to Stitch and compress from DVR systems
 
 On my bike the DVR records AVI videos in 1-5 min segments.
-As I want to watch my glorious rides uninterrupted this script pieces them together and converts to mp4 for a slammer file size.
 
-In additional as wind noise is pretty bad its does some audio compression (in the anagoge sense).
+As I want to watch my glorious rides uninterrupted this script pieces them together and converts to mp4 for a smaller file size.
+
+In addition as wind noise is pretty bad, its does some audio compression (in the analogue sense).
 
 == Install 
 
-Tool requires:
-
-ffmpeg 
-
-You can install via:
+Script requires ffmpeg. You can install via:
 
     winget install --id=Gyan.FFmpeg  -e
 
@@ -19,7 +16,7 @@ You may need to update execution policy in powershell:
 
     Set-ExecutionPolicy -Scope CurrentUser RemoteSigned
 
-As it can be quite slow to make the videos if you have a decent GPU:
+As it can be quite slow to make the videos, if you have a decent GPU:
 
     Video encoder (libx264/h264_nvenc/hevc_nvenc/h264_qsv/hevc_qsv/h264_amf/hevc_amf) (default libx264): h264_nvenc
 
@@ -27,7 +24,9 @@ ie. chose the correct video encoder for your hardware.
 
 == Usage
 
-Run the script in the folder you want and select the starting and end index of the video clips.
+Run the script from the same folde as your videos and select the starting and end index of the video clips.
+
+    .\stitch_and_compress.ps1
 
 It gives lots of prompts for video and audio options, you can just hammer the enter key if you are happy with the defaults.
 
