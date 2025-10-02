@@ -1,4 +1,4 @@
-= Script to Stitch and compress from DVR systems
+# Script to Stitch and compress from DVR systems
 
 On my bike the DVR records AVI videos in 1-5 min segments.
 
@@ -6,7 +6,7 @@ As I want to watch my glorious rides uninterrupted this script pieces them toget
 
 In addition as wind noise is pretty bad, its does some audio compression (in the analogue sense).
 
-== Install 
+## Install 
 
 Script requires ffmpeg. You can install via:
 
@@ -22,7 +22,7 @@ As it can be quite slow to make the videos, if you have a decent GPU:
 
 ie. chose the correct video encoder for your hardware.
 
-== Usage
+## Usage
 
 Run the script from the same folde as your videos and select the starting and end index of the video clips.
 
@@ -31,7 +31,7 @@ Run the script from the same folde as your videos and select the starting and en
 It gives lots of prompts for video and audio options, you can just hammer the enter key if you are happy with the defaults.
 
 
-== Knobs
+## Knobs
 
 Demo of the effect of video stuff:
 
@@ -47,7 +47,7 @@ With stabilization:
 ![Stabilisation demo](./docs/doc_wobble_reduction.gif)
 
 
-== Acknowledgements
+## Acknowledgements
 
 
 Thanks to Lord GPT.
