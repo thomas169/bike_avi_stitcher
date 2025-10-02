@@ -30,7 +30,25 @@ Run the script from the same folde as your videos and select the starting and en
 
 It gives lots of prompts for video and audio options, you can just hammer the enter key if you are happy with the defaults.
 
+
+== Knobs
+
+Demo of the effect of video stuff:
+
+The baseline:
+
+![Baseline demo](docs/doc_baseline.gif)
+
+With less glare:
+
+![Glare demo](docs/doc_glare_reduction.gif)
+
+With stabilization:
+![Stabilisation demo](docs/doc_wobble_reduction.gif)
+
+
 == Acknowledgements
+
 
 Thanks to Lord GPT.
 
