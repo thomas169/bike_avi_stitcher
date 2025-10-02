@@ -37,14 +37,14 @@ Demo of the effect of video stuff:
 
 The baseline:
 
-![Baseline demo](docs/doc_baseline.gif)
+![Baseline demo](./docs/doc_baseline.gif)
 
 With less glare:
 
-![Glare demo](docs/doc_glare_reduction.gif)
+![Glare demo](./docs/doc_glare_reduction.gif)
 
 With stabilization:
-![Stabilisation demo](docs/doc_wobble_reduction.gif)
+![Stabilisation demo](./docs/doc_wobble_reduction.gif)
 
 
 == Acknowledgements
